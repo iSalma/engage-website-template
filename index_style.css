@@ -1,0 +1,790 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar
+{
+    background-color: transparent;
+    /*to appear while scrolling down*/
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) );
+    overflow: auto;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 5px 200px;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar .imlst .content
+{
+    float: left;
+    width: 50%;
+}
+
+.navbar .imlst .content ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.imlst .content li
+{
+    display: inline;
+    margin: 5px;
+}
+
+.imlst  img
+{
+    height: 4%;
+    width: 16%;
+}
+
+.imlst .content a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+}
+
+.imlst .content button
+{
+    color:#201f1f;
+    background-color: white;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5%;
+    padding: 6px 20px;
+}
+
+.imlst .content button:hover
+{
+    background-color: #4caf50;
+    color: white;
+}
+
+.home
+{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url(business-2.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 115%;
+    text-align: center;
+}
+
+.home .intro
+{
+    border-color: transparent;
+    border-style: solid;
+    border-width: 300px 200px;
+}
+
+.home .intro h1
+{
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.home .intro p
+{
+    color: white;
+    font-size: 50px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+}
+
+.home .intro button
+{
+    color:white;
+    background-color: #4caf50;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5%;
+    padding: 15px 20px;
+    margin-top: 40px;
+}
+
+.home .intro button:hover
+{
+    background-color: white;
+    color: #303030;
+}
+
+.keylike
+{
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: 100px 0px;
+}
+
+.containerklh
+{
+    overflow: auto;
+    width: 90%;
+    margin: auto;
+}
+
+.keylike .klh1
+{
+    background-color: white;
+    width: 6%;
+    text-align: left;
+    float: left;
+    text-align: right;
+}
+
+.keylike .klh2
+{
+    background-color: white;
+    width: 27.333333%;
+    text-align: left;
+    float: left;
+    text-align: left; 
+}
+
+.keylike h3
+{
+    color: #303030;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.keylike p
+{
+    color: #888;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 500;
+    line-height: 1.86em;
+}
+
+.ourservices
+{
+    background-color: #f8f8f8;
+    border-color: #f8f8f8;
+    border-style: solid;
+    border-width: 70px 0px;
+    text-align: center;
+  /*  overflow: auto; di hnktbha f container 3shan hwa l parent ll haga l 3mlha float left*/
+}
+
+.containerserv
+{
+    overflow: auto;
+    width: 80%;
+    margin: auto;
+
+}
+
+.ourservices h1
+{
+    color: #303030;
+    font-size: 36px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.ourservices h2
+{
+    color: #888;
+    font-size: 20px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+.ourservices .service 
+{
+    background-color: white;
+    width: 30.333%;
+    text-align: left;
+    float: left;
+    padding-bottom: 30px;
+    border-style: solid;
+    border-color: #f8f8f8;
+    border-width: 25px 15px;
+}
+
+.service .imghvr
+{
+    overflow: hidden;
+}
+
+.service .imghvr img
+{
+    width : 100%;
+    height: 35%;
+    transition: transform .9s ease;
+}
+
+.service:hover img
+{
+    transform: scale(1.04);
+}
+
+.service .text
+{
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 20px;
+}
+
+.service .text h3
+{
+    color: #303030;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.8em;
+    margin-top: 10px;
+}
+
+.service .text p
+{
+    color: #888;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    line-height: 1.86em;
+    margin-top: 10px;  
+    margin-bottom: 20px;  
+}
+
+.service .text a
+{
+    text-decoration: none;
+    color: #666;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+}
+
+.service .text a:hover
+{
+    color: #4caf50;
+}
+
+.oursecret
+{
+    background-color: white;
+    overflow: auto;
+    border-style: solid;
+    border-color: white;
+    border-width: 80px 200px;
+}
+
+.oursecret .text
+{
+    background-color: white;
+    width: 45%;
+    text-align: left;
+    float: left;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 80px 0px 0px;
+}
+
+.oursecret .text h1
+{
+    color: #303030;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.oursecret .text p
+{
+    color: #888;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8em;
+   
+}
+
+.oursecret .text button
+{
+    color:white;
+    background-color: #4caf50;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5%;
+    padding: 15px 20px;
+    margin-top: 30px;
+}
+
+.oursecret .text button:hover
+{
+    background-color: #303030;
+}
+
+.oursecret .image
+{
+    background-color:white;
+    width: 45%;
+    text-align: right;
+    float: left;
+}
+
+.oursecret .image img
+{
+    width: 100%;
+    height: auto;
+}
+
+.oursecret ul
+{
+    list-style-image: url('checkmark.png');
+    color: #888;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 2em;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+.comments
+{
+    background-color: #f8f8f8;
+    border-style: solid;
+    border-color: #f8f8f8;
+    border-width: 70px 0px;
+}
+
+.containercomm
+{
+    overflow: auto;
+    width: 80%;
+    margin: auto;
+}
+
+.comments .icon
+{
+    text-align: center;
+}
+
+.comments .comment
+{
+    float: left;
+    width: 33.33%;
+    border-style: solid;
+    border-color: #f8f8f8;
+    border-width: 25px 15px;
+}
+
+.comment .parag
+{
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 25px 15px;
+    margin-bottom: 20px;
+}
+
+.comment .parag p
+{
+    background-color: white;
+    color: rgb(104, 104, 104);
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.6em;
+}
+
+.comment .name 
+{
+    margin-left: 15px;
+}
+
+.comment .name h2
+{
+    color: rgb(104, 104, 104);
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8em;
+}
+
+.comment .name h3
+{
+    color: #888;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8em;
+}
+
+.statics
+{
+    background: white;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    border-width: 100px 0px;
+}
+
+.containerstat
+{
+    overflow: auto;
+    width: 80%;
+    margin: auto;
+}
+
+.statics .number
+{
+    background: white;
+    float: left;
+    width: 25%;
+}
+
+.statics .number h1
+{
+    color: #303030;
+    font-size: 52px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.statics .number h2
+{
+    color: rgba(0,0,0,.55);
+    font-size: 20px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.value
+{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url(skysc.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 65%;
+}
+
+.value .text 
+{
+    text-align: center; 
+    border-style: solid;
+    border-color:transparent;
+    border-width: 120px 390px; 
+}
+
+.value .text h1
+{
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.value .text p
+{
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.8em;
+}
+ 
+.value .text button
+{
+    color:white;
+    background-color: #4caf50;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5%;
+    padding: 15px 20px;
+    margin-top: 40px;
+}
+
+.value .text button:hover
+{
+    background-color: white;
+    color: #303030;
+}
+
+.otherservice
+{
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: 70px 0px;
+}
+
+.containerother
+{
+    overflow: auto;
+    width: 70%;
+    margin: auto;
+}
+
+.otherservice h1 
+{
+    color: #201f1f;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.otherservice h2
+{
+    color: rgb(136, 136, 136);
+    font-family: 'Open Sans',sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.otherservice .others 
+{
+    float: left;
+    width: 30.33%;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.otherservice .others h3
+{
+    color: #303030;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.otherservice .others p
+{
+    color: rgb(104, 104, 104);
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+
+
+.sponser
+{
+    overflow: auto;
+    background-color: #f8f8f8;
+    border-color: #f8f8f8;
+    border-style: solid;
+    border-width: 70px 0px;
+    text-align: center;
+}
+
+.containerspon
+{
+    overflow: auto;
+    width: 80%;
+    margin: auto;
+}
+
+.sponser .logo
+{
+    float: left;
+    width: 20%;
+    border-color: #f8f8f8;
+    border-style: solid;
+    border-width: 20px;
+}
+
+.sponser .logo img
+{
+    width: 150px;
+    height: 60px;
+    margin: 10px;
+}
+
+.sponser .logo img:hover 
+{
+    
+}
+
+.contactus
+{
+    background-color: #4caf50;
+    overflow: auto;
+    border-color: #4caf50;
+    border-style: solid;
+    border-width: 50px 60px 50px 220px;
+}
+
+.contactus .text
+{
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.contactus .text h1
+{
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.contactus .text h2
+{
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.contactus .button
+{
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.contactus .button button
+{
+    color:#303030;
+    background-color: white;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5%;
+    padding: 20px 25px;
+}
+
+.contactus .button button:hover
+{
+    color:white;
+    background-color: #303030;
+}
+
+.info
+{
+    background-color: #201f1f;
+    overflow: auto;
+    border-color: #201f1f;
+    border-style: solid;
+    border-width: 20px 150px ;
+}
+
+.info .about
+{
+    float: left;
+    width: 21%;
+    margin: 15px;
+}
+
+.info .about h2
+{
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.info .about p
+{
+    color: #666;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 1.8em;
+}
+
+.info .about ul
+{
+    list-style: none;
+    color: #666;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 1.8em;
+}
+
+.info .about li
+{
+    margin-bottom: 6px;
+}
+
+.info .about li:before
+{
+    /* 2C3  (mmkn ahot < 3tol)is for > and the same is 009B but it doesn't appear in firefox and 0020 is a space*/
+    content: " > \2c3 \009B \0020";
+}
+
+.info .about a
+{
+    text-decoration: none;
+    color: #666;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+}
+
+.info .about a:hover
+{
+    color: rgb(41, 66, 179);
+}
+
+.copyright
+{
+    background-color: rgb(20, 20, 20);
+    overflow: auto;
+    border-color: rgb(20, 20, 20);
+    border-style: solid;
+    border-width: 10px 150px ;
+}
+
+.copyright .part
+{
+    float: left;
+    width: 50%;
+    color: #666;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 11px;
+    font-weight: 200;
+}
+
+.copyright .part button
+{
+    color: black;
+    background: url(fb.png);
+    border: none;
+    border-radius: 100%;
+    padding: 10px;
+    margin-left: 400px;
+}
+
+.copyright .part button:hover
+{
+    background: url(bfb.png);
+    border-radius: 100%;
+}
